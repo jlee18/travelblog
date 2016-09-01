@@ -2,10 +2,57 @@
 h1 {
  font-family: 'Amatic SC', cursive;
   font-size: 7rem;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  text-align: center;
+
+}
+
+h2 {
+ font-family: 'Amatic SC', cursive;
+  font-size: 7rem;
+  margin-bottom: 10px;
   margin-top: 5px;
 
 }
+
+h3 {
+ font-family: 'Amatic SC', cursive;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+
+h4 {
+     font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5rem;
+
+}
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1rem;
+
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+tr, td {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+th {
+   font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+}
+
 
 a {
 text-decoration: none;
@@ -13,16 +60,15 @@ text-decoration: none;
   font-size: 1.5rem;
 text-align: center;
 
+
+
 }
 
 a:hover {
   text-decoration: underline;
   color: darkred;
 
-}
-p {
-    font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1rem;
+
 
 }
 
@@ -34,7 +80,17 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0px;
 }
+
+.welcome {
+  padding: 5px;
+  width: 50%;
+  text-align: center;
+}
+
+
+.articleTable:hover {background-color: #f5f5f5}
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
